@@ -1,0 +1,28 @@
+Request Timeout - This is when a server does not respond at all
+HTTP - Hypertext Transfer Protocol
+
+Components of a Request
+1. Path(URL)
+2. Method- GET,PUT, POST, DELETE
+3. Body
+4. Headers
+
+Path(URL)
+
+this is the address where your resource is located
+it has a base url and an endpoint
+Base url is the part of the url that does not chnage no matter what resource you are requesting
+eg => https://apis.scrimba.com/jsonplaceholder
+endpoint is the path to the specific resource or request you are making
+eg => posts
+
+full url => https://apis.scrimba.com/jsonplaceholder/posts
+
+Request Methods
+GET - getting the data
+POST - adding new data
+PUT - Updating existing data
+DELETE - 
+
+
+Body is the data we want to send to the server, only included in POST and PUT
